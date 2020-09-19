@@ -17,14 +17,12 @@ namespace EvalRaulClaros.Controllers
         private DataContext db = new DataContext();
 
         // GET: api/EvalRaulClaros
-        [Authorize]
-        public IQueryable<EvalRaulClaros> GetEvalRaulClaros()
+        public IQueryable<EvalClaros> GetEvalRaulClaros()
         {
             return db.EvalRaulClaros;
         }
 
         // GET: api/EvalRaulClaros/5
-        [Authorize]
         [ResponseType(typeof(EvalRaulClaros))]
         public IHttpActionResult GetEvalRaulClaros(string id)
         {
@@ -38,7 +36,6 @@ namespace EvalRaulClaros.Controllers
         }
 
         // PUT: api/EvalRaulClaros/5
-        [Authorize]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutEvalRaulClaros(string id, EvalRaulClaros evalRaulClaros)
         {
@@ -74,7 +71,6 @@ namespace EvalRaulClaros.Controllers
         }
 
         // POST: api/EvalRaulClaros
-        [Authorize]
         [ResponseType(typeof(EvalRaulClaros))]
         public IHttpActionResult PostEvalRaulClaros(EvalRaulClaros evalRaulClaros)
         {
@@ -105,7 +101,6 @@ namespace EvalRaulClaros.Controllers
         }
 
         // DELETE: api/EvalRaulClaros/5
-        [Authorize]
         [ResponseType(typeof(EvalRaulClaros))]
         public IHttpActionResult DeleteEvalRaulClaros(string id)
         {

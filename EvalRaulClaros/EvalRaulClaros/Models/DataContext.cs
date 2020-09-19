@@ -13,6 +13,6 @@ namespace EvalRaulClaros.Models
 
         }
 
-        public System.Data.Entity.DbSet<EvalRaulClaros.Models.EvalRaulClaros> EvalRaulClaros { get; set; }
+        public System.Data.Entity.DbSet<EvalClaros.Models.EvalRaulClaros> EvalRaulClaros { get; set; }
     }
 }

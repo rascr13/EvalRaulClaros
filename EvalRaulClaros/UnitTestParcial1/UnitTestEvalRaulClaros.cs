@@ -7,9 +7,10 @@ namespace UnitTestParcial1
     public class UnitTestEvalRaulClaros
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethodGET()
         {
             //Arrange
+            EvalRaulClaros evalRaulClaros = new EvalRaulClaros();
 
             //Act
 

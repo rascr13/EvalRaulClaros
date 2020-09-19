@@ -6,7 +6,7 @@ using System.Web;
 
 namespace EvalRaulClaros.Models
 {
-    public class EvalRaulClaros
+    public class EvalClaros
     {
         [Key]
         [Display(Name= "Nombre del Pais")]
